@@ -12,14 +12,14 @@ int main()
 
     cout << "First element of vector1 is: " << vector1.at(0) << endl;
     cout << "Second element of vector1 is: " << vector1.at(1) << endl;
-    cout << "Size of vector1 is: " << sizeof(vector1) << endl << endl;
+    cout << "vector1 contains: " << vector1.size() << " elements" << endl << endl;
 
     vector2.push_back(100);
     vector2.push_back(200);
 
     cout << "First element of vector2 is: " << vector2.at(0) << endl;
     cout << "Second element of vector2 is: " << vector2.at(1) << endl;
-    cout << "Size of vector2 is: " << sizeof(vector2) << endl << endl;
+    cout << "vector2 contains: " << vector2.size() <<  " elements" << endl << endl;
 
     vector<vector<int>> vector_2d;
     vector_2d.push_back(vector1);
